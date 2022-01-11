@@ -1,0 +1,107 @@
+
+a {
+    color: #00838F;
+    text-decoration: none;
+    padding: 6px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #00838F;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 18px;
+}
+
+table td {
+    padding: 20px;
+}
+
+table td:last-child {
+    text-align: right;
+}
+
+table tr:first-child {
+    background-color: gray;
+    color: #fff;
+    font-weight: bold;
+}
+
+table tr {
+    border-bottom: 1px dotted #00838F;
+}
+
+form table {
+    width: 25%;
+}
+
+form table tr {
+    vertical-align: top;
+}
+
+form table tr:first-child {
+    background-color: #fff;
+    color: #000;
+    font-weight: normal;
+}
+
+form table tr:last-child {
+    text-align: center;
+}
+
+.button {
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #92BA56;
+    border: 1px solid #92BA56;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px;
+    min-width: 100px;
+}
+
+.button:hover {
+    background-color: #FFF;
+    color: #92BA56;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #92BA56;
+    border: 1px solid #92BA56;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px;
+    min-width: 100px;
+}
+
+input[type=submit]:hover {
+    background-color: #FFF;
+    color: #92BA56;
+    cursor: pointer;
+}
+
+input[type=submit].cancel {
+    background-color: #C0C0C0;
+    background-color: #C0C0C0;
+    border: 1px solid #C0C0C0;
+}
+
+input[type=submit].cancel:hover {
+    background-color: #FFF;
+    color: #C0C0C0;
+    cursor: pointer;
+}
+
+.float-right {
+    float: right;
+}
+
+.error { 
+    color: red;
+    font-size: 12px;
+}
+
