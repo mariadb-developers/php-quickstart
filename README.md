@@ -1,6 +1,6 @@
 # PHP Quickstart
 
-This repository contains a simple web application that demonstrates how to quickly connect to and communicate with a [MariaDB](https://mariadb.com) database using [PHP](https://www.php.net/). 
+This repository contains a simple web application that demonstrates how to quickly connect to and communicate with a [MariaDB](https://mariadb.com) database using [PHP](https://www.php.net/) (via [mysqli](https://www.php.net/manual/en/book.mysqli.php). 
 
 <p align="center" spacing="10">
     <kbd>
@@ -12,7 +12,7 @@ This repository contains a simple web application that demonstrates how to quick
 
 The application in this repository demonstrates how to:
 
-* Connect to a MariaDB database using [mysqli](https://www.php.net/manual/en/book.mysqli.php)
+* Connect to a MariaDB database using `mysqli`
 * Execute queries (`SELECT`, `UPDATE`, `INSERT` and `DELETE`) to manage _contact_ data (like a digital [rolodex](https://en.wikipedia.org/wiki/Rolodex))
 * Use prepared statements
 
