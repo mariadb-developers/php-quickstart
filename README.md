@@ -24,7 +24,7 @@ The application relies on a single database (`rolodex`) that contains a single t
 
 After you've [pulled down this repository](https://git-scm.com/docs/git-clone), follow these steps to get the app up and running:
 
-1. Update the database configuration settings in [src/config.php](src/config.php) (which is used across the app) to point to _your_ MariaDB database.
+1. Update the database configuration settings in [config.php](src/config.php) (which is used across the app) to point to _your_ MariaDB database.
 
     _Example configuration:_
 
@@ -35,7 +35,7 @@ After you've [pulled down this repository](https://git-scm.com/docs/git-clone), 
     $databaseName = 'rolodex';
     ```
 
-    **Note:** Check out the [src/config_skysql.php](config_skysql.php) file for an example of how to connect to [MariaDB SkySQL](https://mariadb.com/skyview).
+    **Note:** Check out the [config_skysql.php](src/config_skysql.php) file for an example of how to connect to [MariaDB SkySQL](https://mariadb.com/skyview).
 
 2. Run the application using the [built-in web server](https://www.php.net/manual/en/features.commandline.webserver.php).
 
