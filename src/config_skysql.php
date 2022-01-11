@@ -14,7 +14,6 @@ if (!$mysqli) {
 
 mysqli_options($mysqli, MYSQLI_OPT_SSL_VERIFY_SERVER_CERT, false);
 
-// THESE ARE FROM THE MYSQL SERVER.
 $mysqli->ssl_set(
     null,
     null,
