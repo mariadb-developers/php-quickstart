@@ -25,8 +25,6 @@ if(isset($_POST['update']))
 		}		
 	} else {	
 		// Execute UPDATE 
-		$result = mysqli_query($mysqli, "UPDATE contacts SET name='$name',age='$age',email='$email' WHERE id=$id");
-		
 		$stmt = $mysqli->prepare("UPDATE contacts SET name=?, age=?, email=? WHERE id=?");
 		$stmt->bind_param("sisi", $name, $age, $email, $id);
 		$stmt->execute();
